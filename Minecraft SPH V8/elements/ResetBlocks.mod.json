@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "command",
+  "definition": {
+    "commandName": "resetblocks",
+    "permissionLevel": "4",
+    "onCommandExecuted": {
+      "name": "ResetBlocksCommandExecuted"
+    }
+  }
+}

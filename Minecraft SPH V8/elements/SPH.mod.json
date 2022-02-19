@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "SPH_Inventory",
+    "icon": {
+      "value": "CUSTOM:TepoliumBlock"
+    },
+    "showSearch": false
+  }
+}

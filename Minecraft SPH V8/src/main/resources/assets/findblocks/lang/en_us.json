@@ -1,0 +1,8 @@
+{
+  "block.findblocks.tepolium_block": "Tepolium Block",
+  "itemGroup.tabsph": "SPH_Inventory",
+  "block.sph_solver.load_block": "Load Block",
+  "block.findblocks.load_block": "Load Block",
+  "block.sph_solver.tepolium_block": "Tepolium Block",
+  "block.findblocks.truss_block": "Truss Block"
+}

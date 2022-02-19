@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "findblocks:block/truss_block"
+    }
+  }
+}

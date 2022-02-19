@@ -1,0 +1,292 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Findblocks",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "findblocks",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TepoliumBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tepolium_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SPHCode",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "sph_code",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RunSPH",
+      "type": "command",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "run_sph"
+    },
+    {
+      "name": "ResetBlocksCommandExecuted",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "reset_blocks_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResetBlocks",
+      "type": "command",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "reset_blocks"
+    },
+    {
+      "name": "SPHInfoCommandExecuted",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "sph_info_command_executed",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SPHInfo",
+      "type": "command",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "sph_info"
+    },
+    {
+      "name": "LoadBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "load_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SetSpecialBlock",
+      "type": "command",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "set_special_block"
+    },
+    {
+      "name": "CraftTepolium",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_tepolium",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SPH",
+      "type": "tab",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sph",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "TrussBlock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "truss_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "TrussCode",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "truss_code",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RunTruss",
+      "type": "command",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "run_truss"
+    },
+    {
+      "name": "Matrix",
+      "type": "code",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "matrix",
+      "path": "~/MatrixVectorClasses"
+    },
+    {
+      "name": "VectorObj",
+      "type": "code",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "vector_obj",
+      "path": "~/MatrixVectorClasses"
+    },
+    {
+      "name": "SPHPropertiesCommand",
+      "type": "command",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "sph_properties_command"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "special_block_X",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "special_block_Y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "special_block_Z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.findblocks.tepolium_block": "Tepolium Block",
+      "itemGroup.tabsph": "SPH_Inventory",
+      "block.sph_solver.load_block": "Load Block",
+      "block.findblocks.load_block": "Load Block",
+      "block.sph_solver.tepolium_block": "Tepolium Block",
+      "block.findblocks.truss_block": "Truss Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "MatrixVectorClasses",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "findblocks",
+    "modName": "Elasticity Solver",
+    "version": "1.6",
+    "description": "SPH Solver Mod for Minecraft with Applied Loads",
+    "author": "Brandon Alpert, Zac Beck, Adrian Buganze Tepole",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "sph icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.findblocks",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

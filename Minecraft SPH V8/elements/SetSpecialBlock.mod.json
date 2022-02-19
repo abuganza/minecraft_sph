@@ -1,0 +1,8 @@
+{
+  "_fv": 24,
+  "_type": "command",
+  "definition": {
+    "commandName": "setspecialblock",
+    "permissionLevel": "No requirement"
+  }
+}

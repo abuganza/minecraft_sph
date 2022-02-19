@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="findblocks"
+version="1.7"
+displayName="Elasticity Solver"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="Brandon Alpert, Zac Beck, Adrian Buganze Tepole"
+description='''
+SPH Solver Mod for Minecraft with Applied Loads
+'''
+
+[[dependencies.findblocks]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

@@ -1,0 +1,1241 @@
+[10Dec2021 19:05:21.789] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.2.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[10Dec2021 19:05:21.798] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 11.0.11 by AdoptOpenJDK
+[10Dec2021 19:05:21.828] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,fmldevdata,fmldevclient,fmldevserver,fmluserdevserver,fmluserdevdata,testharness,fmlclient,fmluserdevclient,fmlserver]
+[10Dec2021 19:05:21.848] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[10Dec2021 19:05:21.870] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [eventbus,object_holder_definalize,runtime_enum_extender,capability_inject_definalize,accesstransformer,runtimedistcleaner]
+[10Dec2021 19:05:21.886] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[10Dec2021 19:05:21.900] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[10Dec2021 19:05:21.963] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [fml]
+[10Dec2021 19:05:21.964] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[10Dec2021 19:05:21.965] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[10Dec2021 19:05:21.966] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[10Dec2021 19:05:21.973] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 31.2
+[10Dec2021 19:05:21.974] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 31.2 loading
+[10Dec2021 19:05:21.974] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 5.1.2+70+master.2845bb9
+[10Dec2021 19:05:21.975] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[10Dec2021 19:05:21.976] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 2.1.1+55+master.08d32b9
+[10Dec2021 19:05:21.977] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 2.2.0+59+master.4f71e48
+[10Dec2021 19:05:21.978] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[10Dec2021 19:05:21.983] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 2.0.3+8+master.ca72757
+[10Dec2021 19:05:21.984] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 2.1.2+9+master.a8b4d92
+[10Dec2021 19:05:21.985] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[10Dec2021 19:05:22.299] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[10Dec2021 19:05:22.300] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[10Dec2021 19:05:22.301] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[10Dec2021 19:05:22.313] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[10Dec2021 19:05:22.314] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[10Dec2021 19:05:22.314] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[10Dec2021 19:05:22.316] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run
+[10Dec2021 19:05:22.317] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run
+[10Dec2021 19:05:22.318] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run\mods
+[10Dec2021 19:05:22.318] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run\mods
+[10Dec2021 19:05:22.319] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run\config
+[10Dec2021 19:05:22.320] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run\config
+[10Dec2021 19:05:22.320] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run\config\fml.toml
+[10Dec2021 19:05:22.321] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[10Dec2021 19:05:22.377] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run\defaultconfigs
+[10Dec2021 19:05:22.377] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[10Dec2021 19:05:22.378] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmluserdevclient as launch service
+[10Dec2021 19:05:22.672] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.15.2' MCP Version: '20200515.085601' Forge Version: '31.2.0' Forge group: 'net.minecraftforge'
+[10Dec2021 19:05:22.674] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR forge at path C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[10Dec2021 19:05:22.676] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR mcdata at path C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.15.2\client-extra.jar
+[10Dec2021 19:05:22.677] [main/DEBUG] [net.minecraftforge.userdev.FMLUserdevLaunchProvider/CORE]: Injecting maven path C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo
+[10Dec2021 19:05:22.677] [main/DEBUG] [net.minecraftforge.fml.loading.FMLCommonLaunchHandler/CORE]: Got mod coordinates examplemod%%C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\build\resources\main;examplemod%%C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\build\classes\java\main from env
+[10Dec2021 19:05:22.684] [main/DEBUG] [net.minecraftforge.fml.loading.FMLCommonLaunchHandler/CORE]: Found supplied mod coordinates [{examplemod=[C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\build\resources\main, C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\build\classes\java\main]}]
+[10Dec2021 19:05:22.697] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[10Dec2021 19:05:22.698] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 31.2
+[10Dec2021 19:05:22.735] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[10Dec2021 19:05:22.735] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Skipping adding forge jar - javafml is already present
+[10Dec2021 19:05:22.739] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[10Dec2021 19:05:22.740] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[10Dec2021 19:05:22.741] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[10Dec2021 19:05:22.742] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[10Dec2021 19:05:22.743] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[10Dec2021 19:05:22.743] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[10Dec2021 19:05:22.829] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR classpath_mod at path C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\build\resources\main
+[10Dec2021 19:05:22.832] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR classpath_mod at path C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[10Dec2021 19:05:22.832] [main/DEBUG] [net.minecraftforge.userdev.ClasspathLocator/CORE]: Found classpath mod: C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[10Dec2021 19:05:22.834] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[10Dec2021 19:05:22.843] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-launcher.jar
+[10Dec2021 19:05:22.845] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.15.2\client-extra.jar
+[10Dec2021 19:05:22.900] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\2.2.0\e663ad1f795b81da8a132c8fde40580b05c2343d\eventbus-2.2.0-service.jar
+[10Dec2021 19:05:22.901] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\2.0.3\9e3f5323f6a2c3ac04fa27481cbeeb48f89757bd\coremods-2.0.3.jar
+[10Dec2021 19:05:22.902] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\2.1.2\867d339ca81f375c560da6d37084066e7f537f15\forgespi-2.1.2.jar
+[10Dec2021 19:05:22.903] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\2.1.1\1d1e439ef345ab5fd76df679de70a0c35f03bf4a\accesstransformers-2.1.1-shadowed.jar
+[10Dec2021 19:05:22.904] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\5.1.2\42f764429585b8a12ba42d43a02c0c9018710052\modlauncher-5.1.2.jar
+[10Dec2021 19:05:22.905] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\5.1.2\63c817b0e96e6accbb602e7de7c938fc444025f3\modlauncher-5.1.2-api.jar
+[10Dec2021 19:05:22.917] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+[10Dec2021 19:05:22.918] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.0.9\d1e1ba354a40b5703340b5cb02fdca489cff3646\mergetool-1.0.9-api.jar
+[10Dec2021 19:05:22.919] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\7.2\ca2954e8d92a05bacc28ff465b25c70e0f512497\asm-commons-7.2.jar
+[10Dec2021 19:05:22.920] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar
+[10Dec2021 19:05:22.921] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\7.2\b6e6abe057f23630113f4167c34bda7086691258\asm-analysis-7.2.jar
+[10Dec2021 19:05:22.922] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\7.2\3a23cc36edaf8fc5a89cb100182758ccb5991487\asm-tree-7.2.jar
+[10Dec2021 19:05:22.923] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\7.2\fa637eb67eb7628c915d73762b681ae7ff0b9731\asm-7.2.jar
+[10Dec2021 19:05:22.924] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\grossjava9hacks\1.3.3\e49222512ea6cabdd8b49761cef1d5a207b1f0d9\grossjava9hacks-1.3.3.jar
+[10Dec2021 19:05:22.925] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
+[10Dec2021 19:05:22.925] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.2\3ac4263d06433da39a5eee95e2679f1642d921f0\toml-3.6.2.jar
+[10Dec2021 19:05:22.926] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.2\56f6500038861d4a8832072676da7bf7916217d0\core-3.6.2.jar
+[10Dec2021 19:05:22.927] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline\3.12.1\de2bd909cb9f8eaa741bd03df4a1bd3f6eb593c7\jline-3.12.1.jar
+[10Dec2021 19:05:22.928] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.6.3\f8ff8032903882376e8d000c51e3e16d20fc7df7\maven-artifact-3.6.3.jar
+[10Dec2021 19:05:22.929] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.8.3\98f84f353457629e81cc6827224871b1a8faa7af\typetools-0.8.3.jar
+[10Dec2021 19:05:22.930] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar
+[10Dec2021 19:05:22.931] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.11.2\6c2fb3f5b7cd27504726aef1b674b542a0c9cf53\log4j-core-2.11.2.jar
+[10Dec2021 19:05:22.932] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.11.2\f5e9a2ffca496057d6891a3de65128efc636e26e\log4j-api-2.11.2.jar
+[10Dec2021 19:05:22.933] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+[10Dec2021 19:05:22.934] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.2.3\e3107ca512d704a434076a153a6e1149e3787275\patchy-1.2.3.jar
+[10Dec2021 19:05:22.935] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
+[10Dec2021 19:05:22.936] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
+[10Dec2021 19:05:22.937] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
+[10Dec2021 19:05:22.938] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
+[10Dec2021 19:05:22.939] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\javabridge\1.0.22\6aa6453aa99a52a5cd91749da1af6ab70e082ab3\javabridge-1.0.22.jar
+[10Dec2021 19:05:22.939] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.25.Final\d0626cd3108294d1d58c05859add27b4ef21f83b\netty-all-4.1.25.Final.jar
+[10Dec2021 19:05:22.940] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
+[10Dec2021 19:05:22.941] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.8.1\6505a72a097d9270f7a9e7bf42c4238283247755\commons-lang3-3.8.1.jar
+[10Dec2021 19:05:22.942] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
+[10Dec2021 19:05:22.943] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
+[10Dec2021 19:05:22.945] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
+[10Dec2021 19:05:22.946] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
+[10Dec2021 19:05:22.947] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
+[10Dec2021 19:05:22.948] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.0.17\c6b7dc51dd44379cc751b7504816006e9be4b1e6\brigadier-1.0.17.jar
+[10Dec2021 19:05:22.949] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\2.0.24\944c24a8519981847ffb36c6dcd059d96fcb4b0\datafixerupper-2.0.24.jar
+[10Dec2021 19:05:22.950] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
+[10Dec2021 19:05:22.951] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
+[10Dec2021 19:05:22.951] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
+[10Dec2021 19:05:22.952] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
+[10Dec2021 19:05:22.953] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
+[10Dec2021 19:05:22.954] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.2.1\5ad88f325e424f8dbc2be5459e21ea5cab3864e9\fastutil-8.2.1.jar
+[10Dec2021 19:05:22.955] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.2.2\ee8e57a79300f78294576d87c4a587f8c99402e2\lwjgl-jemalloc-3.2.2.jar
+[10Dec2021 19:05:22.956] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.2.2\338b25b99da3ba5f441f6492f2ce2a9c608860ed\lwjgl-jemalloc-3.2.2-natives-windows.jar
+[10Dec2021 19:05:22.957] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.2.2\2b772a102b0a11ee5f2109a5b136f4dc7c630827\lwjgl-openal-3.2.2.jar
+[10Dec2021 19:05:22.958] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.2.2\ec20a7d42a2438528fca87e60b1705f1e2339ddb\lwjgl-openal-3.2.2-natives-windows.jar
+[10Dec2021 19:05:22.959] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.2.2\6ac5bb88b44c43ea195a570aab059f63da004cd8\lwjgl-opengl-3.2.2.jar
+[10Dec2021 19:05:22.960] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.2.2\d8dcdc91066cae2d2d8279cb4a9f9f05d9525826\lwjgl-opengl-3.2.2-natives-windows.jar
+[10Dec2021 19:05:22.960] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.2.2\d3ad4df38e400b8afba1de63f84338809399df5b\lwjgl-glfw-3.2.2.jar
+[10Dec2021 19:05:22.961] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.2.2\dc6826d636bf796b33a49038c354210e661bfc17\lwjgl-glfw-3.2.2-natives-windows.jar
+[10Dec2021 19:05:22.963] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.2.2\3b8e6ebc5851dd3d17e37e5cadce2eff2a429f0f\lwjgl-stb-3.2.2.jar
+[10Dec2021 19:05:22.964] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.2.2\811f705cbb29e8ae8d60bdf8fdd38c0c123ad3ef\lwjgl-stb-3.2.2-natives-windows.jar
+[10Dec2021 19:05:22.965] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.2.2\fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9\lwjgl-tinyfd-3.2.2.jar
+[10Dec2021 19:05:22.966] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.2.2\e9115958773644e863332a6a06488d26f9e1fc9f\lwjgl-tinyfd-3.2.2-natives-windows.jar
+[10Dec2021 19:05:22.966] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.2.2\8ad6294407e15780b43e84929c40e4c5e997972e\lwjgl-3.2.2.jar
+[10Dec2021 19:05:22.967] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.2.2\5359f3aa50d36352815fc662ea73e1c00d22170\lwjgl-3.2.2-natives-windows.jar
+[10Dec2021 19:05:22.968] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.11.3\f378f889797edd7df8d32272c06ca80a1b6b0f58\text2speech-1.11.3.jar
+[10Dec2021 19:05:22.970] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.11.3\c0b242c0091be5acbf303263c7eeeaedd70544c7\text2speech-1.11.3-natives-windows.jar
+[10Dec2021 19:05:22.971] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.7.2\e27d8ab4f984f9d186f54da984a6ab1cccac755e\antlr4-runtime-4.7.2.jar
+[10Dec2021 19:05:22.972] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar
+[10Dec2021 19:05:22.973] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.2.1\13b015768e0d04849d2794e4c47eb02d01a0de32\plexus-utils-3.2.1.jar
+[10Dec2021 19:05:22.973] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\brandon\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
+[10Dec2021 19:05:22.978] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[10Dec2021 19:05:23.042] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (userdev classpath:null),(mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[10Dec2021 19:05:23.084] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ExplodedDirectoryLocator/LOADING]: Found exploded directory mod manifest at C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\build\resources\main\META-INF\mods.toml
+[10Dec2021 19:05:23.089] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[10Dec2021 19:05:23.157] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar with {forge} mods - versions {31.2.0}
+[10Dec2021 19:05:23.158] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar with language javafml
+[10Dec2021 19:05:23.224] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[10Dec2021 19:05:23.225] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[10Dec2021 19:05:23.226] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\build\resources\main
+[10Dec2021 19:05:23.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {findblocks} mods - versions {1.7}
+[10Dec2021 19:05:23.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\build\resources\main with language javafml
+[10Dec2021 19:05:23.235] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.15.2\client-extra.jar
+[10Dec2021 19:05:23.246] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file client-extra.jar with {minecraft} mods - versions {1.15.2}
+[10Dec2021 19:05:23.246] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.15.2\client-extra.jar with language minecraft
+[10Dec2021 19:05:23.260] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 1 mandatory requirements
+[10Dec2021 19:05:23.261] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory mod requirements missing
+[10Dec2021 19:05:23.444] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[10Dec2021 19:05:23.791] [main/DEBUG] [net.minecraftforge.userdev.MCPNamingService/CORE]: Loaded 12295 method mappings from methods.csv
+[10Dec2021 19:05:23.836] [main/DEBUG] [net.minecraftforge.userdev.MCPNamingService/CORE]: Loaded 16430 field mappings from fields.csv
+[10Dec2021 19:05:23.892] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[10Dec2021 19:05:23.892] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[10Dec2021 19:05:23.893] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[10Dec2021 19:05:23.894] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[10Dec2021 19:05:23.895] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[10Dec2021 19:05:24.115] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[10Dec2021 19:05:24.128] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6c806c8b to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[10Dec2021 19:05:24.130] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@71466383 to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[10Dec2021 19:05:24.131] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@46d63dbb to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[10Dec2021 19:05:24.131] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4088741b to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[10Dec2021 19:05:24.131] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16a49a5d to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[10Dec2021 19:05:24.132] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@54bca971 to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[10Dec2021 19:05:24.132] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[10Dec2021 19:05:24.152] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[10Dec2021 19:05:24.153] [main/DEBUG] [net.minecraftforge.userdev.FMLUserdevClientLaunchProvider/CORE]: Launching minecraft in cpw.mods.modlauncher.TransformingClassLoader@204e90f7 with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, DONT_CRASH, --userProperties, {}]
+[10Dec2021 19:05:26.777] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[10Dec2021 19:05:28.020] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
+[10Dec2021 19:05:28.335] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
+[10Dec2021 19:05:28.671] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
+[10Dec2021 19:05:36.839] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
+[10Dec2021 19:05:36.974] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
+[10Dec2021 19:05:37.829] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
+[10Dec2021 19:05:45.139] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[10Dec2021 19:05:46.342] [Render thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4535
+[10Dec2021 19:05:47.057] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[10Dec2021 19:05:47.152] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Using 8 threads for parallel mod-loading
+[10Dec2021 19:05:47.162] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@204e90f7
+[10Dec2021 19:05:47.203] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@204e90f7
+[10Dec2021 19:05:47.211] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@204e90f7 - got cpw.mods.modlauncher.TransformingClassLoader@204e90f7
+[10Dec2021 19:05:47.211] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@204e90f7 & cpw.mods.modlauncher.TransformingClassLoader@204e90f7
+[10Dec2021 19:05:47.267] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.minecraftforge.common.ForgeMod with cpw.mods.modlauncher.TransformingClassLoader@204e90f7
+[10Dec2021 19:05:47.267] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@204e90f7
+[10Dec2021 19:05:47.267] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@204e90f7 - got cpw.mods.modlauncher.TransformingClassLoader@204e90f7
+[10Dec2021 19:05:47.268] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.mcreator.findblocks.FindblocksMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@204e90f7 & cpw.mods.modlauncher.TransformingClassLoader@204e90f7
+[10Dec2021 19:05:47.274] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.mcreator.findblocks.FindblocksMod with cpw.mods.modlauncher.TransformingClassLoader@204e90f7
+[10Dec2021 19:05:47.318] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:CONSTRUCT
+[10Dec2021 19:05:47.452] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance forge of type net.minecraftforge.common.ForgeMod
+[10Dec2021 19:05:47.453] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 31.2 from cpw.mods.modlauncher.TransformingClassLoader@204e90f7
+[10Dec2021 19:05:47.453] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 31.2.0
+[10Dec2021 19:05:47.453] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 31.2
+[10Dec2021 19:05:47.453] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[10Dec2021 19:05:47.460] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.15.2
+[10Dec2021 19:05:47.460] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20200515.085601
+[10Dec2021 19:05:47.464] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
+[10Dec2021 19:05:47.467] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
+[10Dec2021 19:05:47.490] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance findblocks of type net.mcreator.findblocks.FindblocksMod
+[10Dec2021 19:05:47.722] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[10Dec2021 19:05:47.722] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[10Dec2021 19:05:47.727] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance forge of type net.minecraftforge.common.ForgeMod
+[10Dec2021 19:05:47.727] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for forge
+[10Dec2021 19:05:47.729] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance findblocks of type net.mcreator.findblocks.FindblocksMod
+[10Dec2021 19:05:47.729] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for findblocks
+[10Dec2021 19:05:47.747] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for findblocks
+[10Dec2021 19:05:47.747] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[10Dec2021 19:05:47.756] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.ModelDataManager to FORGE
+[10Dec2021 19:05:47.756] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.mcreator.findblocks.procedures.Matrix to MOD
+[10Dec2021 19:05:47.758] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.mcreator.findblocks.procedures.VectorObj to MOD
+[10Dec2021 19:05:47.758] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for findblocks
+[10Dec2021 19:05:47.775] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for forge
+[10Dec2021 19:05:47.776] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:CREATE_REGISTRIES
+[10Dec2021 19:05:47.778] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.NewRegistry
+[10Dec2021 19:05:47.778] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.NewRegistry
+[10Dec2021 19:05:47.779] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.NewRegistry
+[10Dec2021 19:05:47.779] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.NewRegistry
+[10Dec2021 19:05:47.791] [Render thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Processing ObjectHolder annotations
+[10Dec2021 19:05:47.828] [Render thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Found 2583 ObjectHolder annotations
+[10Dec2021 19:05:47.850] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.866] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block>
+[10Dec2021 19:05:47.866] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block>
+[10Dec2021 19:05:47.867] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:block>
+[10Dec2021 19:05:47.869] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:block>
+[10Dec2021 19:05:47.870] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:block
+[10Dec2021 19:05:47.874] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:block
+[10Dec2021 19:05:47.875] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.875] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:item>
+[10Dec2021 19:05:47.875] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:item>
+[10Dec2021 19:05:47.875] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:item>
+[10Dec2021 19:05:47.876] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:item>
+[10Dec2021 19:05:47.876] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:item
+[10Dec2021 19:05:47.878] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:item
+[10Dec2021 19:05:47.878] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.878] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[10Dec2021 19:05:47.878] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[10Dec2021 19:05:47.878] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<forge:loot_modifier_serializers>
+[10Dec2021 19:05:47.879] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<forge:loot_modifier_serializers>
+[10Dec2021 19:05:47.879] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:loot_modifier_serializers
+[10Dec2021 19:05:47.879] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:loot_modifier_serializers
+[10Dec2021 19:05:47.879] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.880] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:moddimensions>
+[10Dec2021 19:05:47.880] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:moddimensions>
+[10Dec2021 19:05:47.880] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<forge:moddimensions>
+[10Dec2021 19:05:47.880] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<forge:moddimensions>
+[10Dec2021 19:05:47.880] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:moddimensions
+[10Dec2021 19:05:47.880] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:moddimensions
+[10Dec2021 19:05:47.881] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.881] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:activities>
+[10Dec2021 19:05:47.881] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:activities>
+[10Dec2021 19:05:47.881] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:activities>
+[10Dec2021 19:05:47.881] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:activities>
+[10Dec2021 19:05:47.881] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:activities
+[10Dec2021 19:05:47.882] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:activities
+[10Dec2021 19:05:47.882] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.883] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome>
+[10Dec2021 19:05:47.883] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome>
+[10Dec2021 19:05:47.883] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:biome>
+[10Dec2021 19:05:47.884] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:biome>
+[10Dec2021 19:05:47.885] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:biome
+[10Dec2021 19:05:47.886] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:biome
+[10Dec2021 19:05:47.886] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.886] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
+[10Dec2021 19:05:47.887] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
+[10Dec2021 19:05:47.887] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:biome_source_type>
+[10Dec2021 19:05:47.887] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:biome_source_type>
+[10Dec2021 19:05:47.887] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:biome_source_type
+[10Dec2021 19:05:47.888] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:biome_source_type
+[10Dec2021 19:05:47.888] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.888] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[10Dec2021 19:05:47.888] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[10Dec2021 19:05:47.889] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:block_entity_type>
+[10Dec2021 19:05:47.889] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:block_entity_type>
+[10Dec2021 19:05:47.889] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:block_entity_type
+[10Dec2021 19:05:47.890] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:block_entity_type
+[10Dec2021 19:05:47.890] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.890] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:carver>
+[10Dec2021 19:05:47.890] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:carver>
+[10Dec2021 19:05:47.890] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:carver>
+[10Dec2021 19:05:47.890] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:carver>
+[10Dec2021 19:05:47.890] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:carver
+[10Dec2021 19:05:47.891] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:carver
+[10Dec2021 19:05:47.891] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.891] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
+[10Dec2021 19:05:47.892] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
+[10Dec2021 19:05:47.892] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:chunk_generator_type>
+[10Dec2021 19:05:47.892] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:chunk_generator_type>
+[10Dec2021 19:05:47.892] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:chunk_generator_type
+[10Dec2021 19:05:47.892] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:chunk_generator_type
+[10Dec2021 19:05:47.892] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.893] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[10Dec2021 19:05:47.893] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[10Dec2021 19:05:47.893] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:chunk_status>
+[10Dec2021 19:05:47.893] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:chunk_status>
+[10Dec2021 19:05:47.893] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:chunk_status
+[10Dec2021 19:05:47.893] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:chunk_status
+[10Dec2021 19:05:47.893] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.893] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
+[10Dec2021 19:05:47.894] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
+[10Dec2021 19:05:47.894] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:dataserializers>
+[10Dec2021 19:05:47.894] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:dataserializers>
+[10Dec2021 19:05:47.894] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:dataserializers
+[10Dec2021 19:05:47.894] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:dataserializers
+[10Dec2021 19:05:47.894] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.895] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:decorator>
+[10Dec2021 19:05:47.895] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:decorator>
+[10Dec2021 19:05:47.895] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:decorator>
+[10Dec2021 19:05:47.895] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:decorator>
+[10Dec2021 19:05:47.895] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:decorator
+[10Dec2021 19:05:47.896] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:decorator
+[10Dec2021 19:05:47.896] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.896] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[10Dec2021 19:05:47.896] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[10Dec2021 19:05:47.896] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:enchantment>
+[10Dec2021 19:05:47.898] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:enchantment>
+[10Dec2021 19:05:47.898] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:enchantment
+[10Dec2021 19:05:47.899] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:enchantment
+[10Dec2021 19:05:47.899] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.899] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[10Dec2021 19:05:47.899] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[10Dec2021 19:05:47.900] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:entity_type>
+[10Dec2021 19:05:47.901] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:entity_type>
+[10Dec2021 19:05:47.901] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:entity_type
+[10Dec2021 19:05:47.902] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:entity_type
+[10Dec2021 19:05:47.902] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.916] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:feature>
+[10Dec2021 19:05:47.916] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:feature>
+[10Dec2021 19:05:47.917] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:feature>
+[10Dec2021 19:05:47.917] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:feature>
+[10Dec2021 19:05:47.917] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:feature
+[10Dec2021 19:05:47.918] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:feature
+[10Dec2021 19:05:47.918] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.918] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[10Dec2021 19:05:47.919] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[10Dec2021 19:05:47.919] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:fluid>
+[10Dec2021 19:05:47.919] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:fluid>
+[10Dec2021 19:05:47.919] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:fluid
+[10Dec2021 19:05:47.920] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:fluid
+[10Dec2021 19:05:47.920] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.920] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[10Dec2021 19:05:47.920] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[10Dec2021 19:05:47.920] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:memory_module_type>
+[10Dec2021 19:05:47.920] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:memory_module_type>
+[10Dec2021 19:05:47.921] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:memory_module_type
+[10Dec2021 19:05:47.921] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:memory_module_type
+[10Dec2021 19:05:47.921] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.922] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:menu>
+[10Dec2021 19:05:47.922] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:menu>
+[10Dec2021 19:05:47.922] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:menu>
+[10Dec2021 19:05:47.922] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:menu>
+[10Dec2021 19:05:47.922] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:menu
+[10Dec2021 19:05:47.923] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:menu
+[10Dec2021 19:05:47.923] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.923] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[10Dec2021 19:05:47.924] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[10Dec2021 19:05:47.924] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:mob_effect>
+[10Dec2021 19:05:47.924] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:mob_effect>
+[10Dec2021 19:05:47.924] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:mob_effect
+[10Dec2021 19:05:47.925] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:mob_effect
+[10Dec2021 19:05:47.925] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.926] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:motive>
+[10Dec2021 19:05:47.926] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:motive>
+[10Dec2021 19:05:47.926] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:motive>
+[10Dec2021 19:05:47.926] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:motive>
+[10Dec2021 19:05:47.926] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:motive
+[10Dec2021 19:05:47.927] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:motive
+[10Dec2021 19:05:47.927] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.927] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[10Dec2021 19:05:47.927] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[10Dec2021 19:05:47.928] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:particle_type>
+[10Dec2021 19:05:47.928] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:particle_type>
+[10Dec2021 19:05:47.928] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:particle_type
+[10Dec2021 19:05:47.929] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:particle_type
+[10Dec2021 19:05:47.929] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.929] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[10Dec2021 19:05:47.929] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[10Dec2021 19:05:47.929] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:point_of_interest_type>
+[10Dec2021 19:05:47.929] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:point_of_interest_type>
+[10Dec2021 19:05:47.929] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:point_of_interest_type
+[10Dec2021 19:05:47.930] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:point_of_interest_type
+[10Dec2021 19:05:47.930] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.930] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:potion>
+[10Dec2021 19:05:47.930] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:potion>
+[10Dec2021 19:05:47.931] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:potion>
+[10Dec2021 19:05:47.931] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:potion>
+[10Dec2021 19:05:47.931] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:potion
+[10Dec2021 19:05:47.932] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:potion
+[10Dec2021 19:05:47.932] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:47.932] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[10Dec2021 19:05:48.043] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[10Dec2021 19:05:48.044] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:recipe_serializer>
+[10Dec2021 19:05:48.044] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:recipe_serializer>
+[10Dec2021 19:05:48.044] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:recipe_serializer
+[10Dec2021 19:05:48.045] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:recipe_serializer
+[10Dec2021 19:05:48.045] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:48.049] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[10Dec2021 19:05:48.049] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[10Dec2021 19:05:48.049] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:schedule>
+[10Dec2021 19:05:48.049] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:schedule>
+[10Dec2021 19:05:48.050] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:schedule
+[10Dec2021 19:05:48.051] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:schedule
+[10Dec2021 19:05:48.051] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:48.051] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[10Dec2021 19:05:48.051] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[10Dec2021 19:05:48.051] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:sensor_type>
+[10Dec2021 19:05:48.052] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:sensor_type>
+[10Dec2021 19:05:48.052] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:sensor_type
+[10Dec2021 19:05:48.052] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:sensor_type
+[10Dec2021 19:05:48.053] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:48.053] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[10Dec2021 19:05:48.053] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[10Dec2021 19:05:48.053] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:sound_event>
+[10Dec2021 19:05:48.053] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:sound_event>
+[10Dec2021 19:05:48.054] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:sound_event
+[10Dec2021 19:05:48.056] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:sound_event
+[10Dec2021 19:05:48.056] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:48.056] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[10Dec2021 19:05:48.056] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[10Dec2021 19:05:48.057] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:stat_type>
+[10Dec2021 19:05:48.057] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:stat_type>
+[10Dec2021 19:05:48.057] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:stat_type
+[10Dec2021 19:05:48.058] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:stat_type
+[10Dec2021 19:05:48.058] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:48.058] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
+[10Dec2021 19:05:48.058] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
+[10Dec2021 19:05:48.059] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:surface_builder>
+[10Dec2021 19:05:48.059] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:surface_builder>
+[10Dec2021 19:05:48.059] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:surface_builder
+[10Dec2021 19:05:48.060] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:surface_builder
+[10Dec2021 19:05:48.060] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[10Dec2021 19:05:48.060] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[10Dec2021 19:05:48.060] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[10Dec2021 19:05:48.060] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : RegistryEvent.Register<minecraft:villager_profession>
+[10Dec2021 19:05:48.060] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : RegistryEvent.Register<minecraft:villager_profession>
+[10Dec2021 19:05:48.060] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:villager_profession
+[10Dec2021 19:05:48.061] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:villager_profession
+[10Dec2021 19:05:48.263] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[10Dec2021 19:05:48.265] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:findblocks for mod file C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\build\resources\main
+[10Dec2021 19:05:48.279] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[10Dec2021 19:05:48.281] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:findblocks for mod file C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\build\resources\main
+[10Dec2021 19:05:48.301] [Render thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 0
+[10Dec2021 19:05:50.648] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[10Dec2021 19:05:50.738] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[10Dec2021 19:05:50.759] [Server-Worker-4/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[10Dec2021 19:05:50.761] [Server-Worker-4/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run\config\forge-client.toml
+[10Dec2021 19:05:50.762] [Server-Worker-4/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run\config\forge-client.toml
+[10Dec2021 19:05:50.765] [Server-Worker-4/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run\config\forge-client.toml for changes
+[10Dec2021 19:05:50.766] [Server-Worker-4/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[10Dec2021 19:05:50.767] [Server-Worker-4/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[10Dec2021 19:05:50.768] [Server-Worker-4/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMMON_SETUP
+[10Dec2021 19:05:50.768] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : FMLCommonSetupEvent
+[10Dec2021 19:05:50.768] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLCommonSetupEvent
+[10Dec2021 19:05:50.768] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : FMLCommonSetupEvent
+[10Dec2021 19:05:50.913] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLCommonSetupEvent
+[10Dec2021 19:05:50.914] [Server-Worker-4/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:SIDED_SETUP
+[10Dec2021 19:05:50.914] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLClientSetupEvent
+[10Dec2021 19:05:50.914] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : FMLClientSetupEvent
+[10Dec2021 19:05:50.915] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLClientSetupEvent
+[10Dec2021 19:05:50.915] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : FMLClientSetupEvent
+[10Dec2021 19:05:50.924] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10Dec2021 19:05:51.711] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2858",
+    "1.12.2-recommended": "14.23.5.2855",
+    "1.13.2-latest": "25.0.222",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.25",
+    "1.14.4-recommended": "28.2.0",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.56",
+    "1.15.2-recommended": "31.2.0",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.20",
+    "1.16.5-recommended": "36.2.0",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.0",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.0.0"
+  }
+}
+[10Dec2021 19:05:51.714] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
+[10Dec2021 19:05:56.420] [Server-Worker-7/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:ENQUEUE_IMC
+[10Dec2021 19:05:56.426] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : InterModEnqueueEvent
+[10Dec2021 19:05:56.426] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModEnqueueEvent
+[10Dec2021 19:05:56.426] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : InterModEnqueueEvent
+[10Dec2021 19:05:56.426] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModEnqueueEvent
+[10Dec2021 19:05:56.427] [Server-Worker-7/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:PROCESS_IMC
+[10Dec2021 19:05:56.431] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModProcessEvent
+[10Dec2021 19:05:56.431] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : InterModProcessEvent
+[10Dec2021 19:05:56.432] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModProcessEvent
+[10Dec2021 19:05:56.432] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : InterModProcessEvent
+[10Dec2021 19:05:56.432] [Server-Worker-7/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMPLETE
+[10Dec2021 19:05:56.437] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid findblocks : FMLLoadCompleteEvent
+[10Dec2021 19:05:56.437] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLLoadCompleteEvent
+[10Dec2021 19:05:56.438] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid findblocks : FMLLoadCompleteEvent
+[10Dec2021 19:05:56.438] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLLoadCompleteEvent
+[10Dec2021 19:05:56.438] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Freezing registries
+[10Dec2021 19:05:56.443] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.486] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Fluid Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.486] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.497] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.497] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.498] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.504] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Potion Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.505] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Enchantment Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.505] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry EntityType Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.506] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry TileEntityType Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.507] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ParticleType Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.507] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ContainerType Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.508] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PaintingType Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.508] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry IRecipeSerializer Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.508] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry StatType Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.508] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry VillagerProfession Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.508] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PointOfInterestType Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.509] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry MemoryModuleType Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.509] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SensorType Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.509] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Schedule Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.509] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Activity Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.509] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry WorldCarver Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.510] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SurfaceBuilder Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.510] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Feature Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.510] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[10Dec2021 19:05:56.511] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Placement Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.512] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry BiomeProviderType Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.512] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkGeneratorType Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.512] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkStatus Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.512] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ModDimension Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.513] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry DataSerializerEntry Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:56.513] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry GlobalLootModifierSerializer Sync: FROZEN -> ACTIVE
+[10Dec2021 19:05:57.053] [Server-Worker-7/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: All registries frozen
+[10Dec2021 19:05:57.348] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[10Dec2021 19:05:57.349] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[10Dec2021 19:05:57.597] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[10Dec2021 19:05:57.679] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x2 minecraft:textures/atlas/signs.png-atlas
+[10Dec2021 19:05:57.680] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[10Dec2021 19:05:57.686] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[10Dec2021 19:05:57.691] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[10Dec2021 19:05:57.693] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[10Dec2021 19:05:57.696] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10Dec2021 19:05:58.535] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[10Dec2021 19:05:58.549] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10Dec2021 19:05:58.551] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10Dec2021 19:05:59.069] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[10Dec2021 19:06:42.084] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10Dec2021 19:06:42.085] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10Dec2021 19:06:42.086] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10Dec2021 19:06:42.087] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10Dec2021 19:06:42.088] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10Dec2021 19:06:42.216] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[10Dec2021 19:06:42.216] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[10Dec2021 19:06:42.299] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\Demo World\serverconfig
+[10Dec2021 19:06:42.299] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[10Dec2021 19:06:42.299] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\saves\Demo World\serverconfig\forge-server.toml
+[10Dec2021 19:06:42.300] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\saves\Demo World\serverconfig\forge-server.toml
+[10Dec2021 19:06:42.301] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\saves\Demo World\serverconfig\forge-server.toml for changes
+[10Dec2021 19:06:42.302] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[10Dec2021 19:06:42.382] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Reading Dimension Entries.
+[10Dec2021 19:06:42.382] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:dimension_type: Clearing registry
+[10Dec2021 19:06:42.383] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 1 Name: minecraft:overworld Value: DimensionType{null}
+[10Dec2021 19:06:42.383] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 2 Name: minecraft:the_end Value: DimensionType{null}
+[10Dec2021 19:06:42.383] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 0 Name: minecraft:the_nether Value: DimensionType{null}
+[10Dec2021 19:06:42.396] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[10Dec2021 19:06:42.437] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.443] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Fluid Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.443] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.447] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.448] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.448] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.452] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Potion Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.452] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Enchantment Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.452] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry EntityType Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.452] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry TileEntityType Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.453] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ParticleType Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.453] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ContainerType Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.453] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PaintingType Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.453] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry IRecipeSerializer Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.453] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry StatType Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.453] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry VillagerProfession Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.453] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PointOfInterestType Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.453] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry MemoryModuleType Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.454] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SensorType Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.454] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Schedule Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.454] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Activity Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.454] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry WorldCarver Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.454] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SurfaceBuilder Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.454] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Feature Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.454] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[10Dec2021 19:06:42.455] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Placement Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.455] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry BiomeProviderType Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.455] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkGeneratorType Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.455] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkStatus Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.455] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ModDimension Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.455] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry DataSerializerEntry Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.455] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry GlobalLootModifierSerializer Sync: ACTIVE -> STAGING
+[10Dec2021 19:06:42.532] [Server thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Applying holder lookups
+[10Dec2021 19:06:42.534] [Server thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Holder lookups applied
+[10Dec2021 19:06:42.537] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\brandon\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[10Dec2021 19:06:42.538] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:findblocks for mod file C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\build\resources\main
+[10Dec2021 19:06:42.539] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar, main
+[10Dec2021 19:06:43.410] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[10Dec2021 19:06:44.575] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[10Dec2021 19:06:45.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Dec2021 19:06:46.277] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[10Dec2021 19:06:46.318] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[10Dec2021 19:06:46.318] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[10Dec2021 19:06:46.633] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 21%
+[10Dec2021 19:06:48.662] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[10Dec2021 19:06:48.662] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[10Dec2021 19:06:48.662] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[10Dec2021 19:06:48.662] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[10Dec2021 19:06:49.126] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[10Dec2021 19:06:49.618] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[10Dec2021 19:06:50.123] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[10Dec2021 19:06:50.624] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
+[10Dec2021 19:06:50.846] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5730 ms
+[10Dec2021 19:06:50.924] [Server thread/INFO] [STDOUT/]: [net.mcreator.findblocks.command.SetSpecialBlockCommand:customCommand:45]: Command Recognized!!!!!
+[10Dec2021 19:06:51.207] [Server thread/WARN] [net.minecraft.tileentity.TileEntity/]: Block entity invalid: minecraft:mob_spawner @ BlockPos{x=-28, y=11, z=-128}
+[10Dec2021 19:06:51.207] [Server thread/WARN] [net.minecraft.tileentity.TileEntity/]: Block entity invalid: minecraft:mob_spawner @ BlockPos{x=-94, y=17, z=-115}
+[10Dec2021 19:06:51.210] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Queueing dimension -1 to unload
+[10Dec2021 19:06:51.211] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Queueing dimension 1 to unload
+[10Dec2021 19:06:51.221] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Unloading dimension -1
+[10Dec2021 19:06:51.226] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10Dec2021 19:06:51.228] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Unloading dimension 1
+[10Dec2021 19:06:51.228] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10Dec2021 19:06:51.233] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 4, from 10
+[10Dec2021 19:06:51.724] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[10Dec2021 19:06:52.166] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[10Dec2021 19:06:52.430] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.fml.network.FMLHandshakeMessages$S2CModList' to 'fml:handshake' sequence 0
+[10Dec2021 19:06:52.456] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[10Dec2021 19:06:52.459] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Logging into server with mod list [minecraft, forge, findblocks]
+[10Dec2021 19:06:52.459] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from server : ACCEPTED
+[10Dec2021 19:06:52.459] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from server : ACCEPTED
+[10Dec2021 19:06:52.460] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from server : ACCEPTED
+[10Dec2021 19:06:52.460] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'findblocks:findblocks' : Version test of '1' from server : ACCEPTED
+[10Dec2021 19:06:52.460] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from server : ACCEPTED
+[10Dec2021 19:06:52.460] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from server : ACCEPTED
+[10Dec2021 19:06:52.460] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from server
+[10Dec2021 19:06:52.462] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 0
+[10Dec2021 19:06:52.463] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Accepted server connection
+[10Dec2021 19:06:52.464] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[10Dec2021 19:06:52.465] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 0 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SModListReply
+[10Dec2021 19:06:52.465] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/REGISTRIES]: Expecting 19 registries: [minecraft:recipe_serializer, minecraft:sound_event, minecraft:particle_type, minecraft:villager_profession, minecraft:item, minecraft:potion, minecraft:block_entity_type, minecraft:block, minecraft:mob_effect, minecraft:stat_type, forge:moddimensions, minecraft:biome, minecraft:menu, minecraft:enchantment, minecraft:motive, minecraft:feature, minecraft:dataserializers, minecraft:fluid, minecraft:entity_type]
+[10Dec2021 19:06:52.466] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, forge, findblocks]
+[10Dec2021 19:06:52.468] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from client : ACCEPTED
+[10Dec2021 19:06:52.468] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from client : ACCEPTED
+[10Dec2021 19:06:52.469] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from client : ACCEPTED
+[10Dec2021 19:06:52.469] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'findblocks:findblocks' : Version test of '1' from client : ACCEPTED
+[10Dec2021 19:06:52.469] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from client : ACCEPTED
+[10Dec2021 19:06:52.469] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from client : ACCEPTED
+[10Dec2021 19:06:52.469] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[10Dec2021 19:06:52.469] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[10Dec2021 19:06:52.482] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 1
+[10Dec2021 19:06:52.484] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[10Dec2021 19:06:52.484] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received config sync from server
+[10Dec2021 19:06:52.485] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 1
+[10Dec2021 19:06:52.485] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[10Dec2021 19:06:52.486] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[10Dec2021 19:06:52.487] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Dec2021 19:06:52.530] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[10Dec2021 19:06:52.567] [Render thread/INFO] [net.minecraft.client.renderer.GlDebugTextUtils/]: OpenGL debug message, id=1280, source=API, type=ERROR, severity=HIGH, message=Error has been generated. GL error GL_INVALID_ENUM in (null): (ID: 3765537371) invalid <type> -1 has been provided.
+[10Dec2021 19:06:52.579] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[10Dec2021 19:06:52.687] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@52ca3012
+[10Dec2021 19:06:52.726] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:0d333b8c] logged in with entity id 47 at (20.991708449300795, 71.78895206751726, -499.712014864962)
+[10Dec2021 19:06:52.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[10Dec2021 19:06:53.127] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[10Dec2021 19:06:53.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Demo World'/minecraft:overworld
+[10Dec2021 19:06:53.274] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 57 advancements
+[10Dec2021 19:06:54.439] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save Demo World
+[10Dec2021 19:07:29.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 280 Blocks added to list in radius 32 with 0 Load Blocks added.
+[10Dec2021 19:07:29.489] [Server thread/INFO] [STDOUT/]: [net.mcreator.findblocks.procedures.SPHCodeProcedure:executeProcedure:79]: Current absolute path is: C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run
+[10Dec2021 19:07:29.489] [Server thread/INFO] [STDOUT/]: [net.mcreator.findblocks.procedures.SPHCodeProcedure:getProperties:887]: Properties file already exists
+[10Dec2021 19:07:29.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Running SPH....
+[10Dec2021 19:07:29.499] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 280 Blocks added to list in radius 32 with 0 Load Blocks added.
+[10Dec2021 19:07:29.500] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Running SPH....
+[10Dec2021 19:07:29.514] [Server thread/INFO] [STDOUT/]: [net.mcreator.findblocks.procedures.SPHCodeProcedure:executeProcedure:146]: Geometry Check: false
+[10Dec2021 19:07:29.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Error: 2D geometry detected, unable to run simulation. Convert to 3D
+[10Dec2021 19:07:29.523] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Error: 2D geometry detected, unable to run simulation. Convert to 3D
+[10Dec2021 19:07:36.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 280 Wool and 0 Concrete inside radius 32 have been reset.
+[10Dec2021 19:07:36.796] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 280 Wool and 0 Concrete inside radius 32 have been reset.
+[10Dec2021 19:07:40.977] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[10Dec2021 19:07:40.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Demo World'/minecraft:overworld
+[10Dec2021 19:07:41.302] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save Demo World
+[10Dec2021 19:07:53.377] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[10Dec2021 19:07:53.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Demo World'/minecraft:overworld
+[10Dec2021 19:07:53.583] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save Demo World
+[10Dec2021 19:08:04.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 280 Blocks added to list in radius 32 with 0 Load Blocks added.
+[10Dec2021 19:08:04.814] [Server thread/INFO] [STDOUT/]: [net.mcreator.findblocks.procedures.SPHCodeProcedure:executeProcedure:79]: Current absolute path is: C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run
+[10Dec2021 19:08:04.815] [Server thread/INFO] [STDOUT/]: [net.mcreator.findblocks.procedures.SPHCodeProcedure:getProperties:887]: Properties file already exists
+[10Dec2021 19:08:04.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Running SPH....
+[10Dec2021 19:08:04.822] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 280 Blocks added to list in radius 32 with 0 Load Blocks added.
+[10Dec2021 19:08:04.823] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Running SPH....
+[10Dec2021 19:08:04.835] [Server thread/INFO] [STDOUT/]: [net.mcreator.findblocks.procedures.SPHCodeProcedure:executeProcedure:146]: Geometry Check: false
+[10Dec2021 19:08:04.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Error: 2D geometry detected, unable to run simulation. Convert to 3D
+[10Dec2021 19:08:04.849] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Error: 2D geometry detected, unable to run simulation. Convert to 3D
+[10Dec2021 19:08:14.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 280 Wool and 0 Concrete inside radius 32 have been reset.
+[10Dec2021 19:08:14.839] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 280 Wool and 0 Concrete inside radius 32 have been reset.
+[10Dec2021 19:08:36.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 304 Blocks added to list in radius 32 with 0 Load Blocks added.
+[10Dec2021 19:08:36.784] [Server thread/INFO] [STDOUT/]: [net.mcreator.findblocks.procedures.SPHCodeProcedure:executeProcedure:79]: Current absolute path is: C:\Users\brandon\Desktop\SPH\Fall 21 Build\Minecraft SPH V8\run
+[10Dec2021 19:08:36.785] [Server thread/INFO] [STDOUT/]: [net.mcreator.findblocks.procedures.SPHCodeProcedure:getProperties:887]: Properties file already exists
+[10Dec2021 19:08:36.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Running SPH....
+[10Dec2021 19:08:36.786] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 304 Blocks added to list in radius 32 with 0 Load Blocks added.
+[10Dec2021 19:08:36.786] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Running SPH....
+[10Dec2021 19:08:36.803] [Server thread/INFO] [STDOUT/]: [net.mcreator.findblocks.procedures.SPHCodeProcedure:executeProcedure:146]: Geometry Check: true
+[10Dec2021 19:08:36.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 0 |  Deflection: 0.000000 m
+[10Dec2021 19:08:36.903] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 0 |  Deflection: 0.000000 m
+[10Dec2021 19:08:36.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 1 |  Deflection: 0.000000 m
+[10Dec2021 19:08:36.955] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 1 |  Deflection: 0.000000 m
+[10Dec2021 19:08:37.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 2 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.009] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 2 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 3 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.073] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 3 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 4 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.139] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 4 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 5 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.214] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 5 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 6 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.271] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 6 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 7 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.350] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 7 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 8 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.403] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 8 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 9 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.455] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 9 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 10 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.515] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 10 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 11 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.568] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 11 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 12 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.621] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 12 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 13 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.685] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 13 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 14 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.735] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 14 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 15 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.801] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 15 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 16 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.868] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 16 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 17 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.918] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 17 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 18 |  Deflection: -0.000000 m
+[10Dec2021 19:08:37.981] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 18 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 19 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.034] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 19 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 20 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.102] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 20 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 21 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.168] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 21 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 22 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.217] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 22 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 23 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.282] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 23 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 24 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.348] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 24 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 25 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.403] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 25 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 26 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.452] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 26 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 27 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.505] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 27 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 28 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.568] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 28 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 29 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.620] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 29 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 30 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.686] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 30 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 31 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.736] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 31 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 32 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.802] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 32 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 33 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.869] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 33 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 34 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.914] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 34 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 35 |  Deflection: -0.000000 m
+[10Dec2021 19:08:38.986] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 35 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 36 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.045] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 36 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 37 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.103] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 37 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 38 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.149] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 38 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 39 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.201] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 39 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 40 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.246] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 40 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 41 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.301] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 41 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 42 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.348] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 42 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 43 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.418] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 43 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 44 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.469] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 44 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 45 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.547] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 45 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 46 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.602] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 46 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 47 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.669] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 47 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 48 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.714] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 48 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 49 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.783] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 49 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 50 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.836] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 50 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 51 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.880] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 51 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 52 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.937] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 52 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 53 |  Deflection: -0.000000 m
+[10Dec2021 19:08:39.988] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 53 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 54 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.054] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 54 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 55 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.122] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 55 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 56 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.187] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 56 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 57 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.272] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 57 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 58 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.338] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 58 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 59 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.414] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 59 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 60 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.506] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 60 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 61 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.555] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 61 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 62 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.610] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Time Steps: 62 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 63 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 64 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 65 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 66 |  Deflection: -0.000000 m
+[10Dec2021 19:08:40.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 67 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 68 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 69 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 70 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 71 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 72 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 73 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 74 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 75 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 76 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 77 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 78 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 79 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 80 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 81 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 82 |  Deflection: -0.000000 m
+[10Dec2021 19:08:41.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 83 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 84 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 85 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 86 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 87 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 88 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 89 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 90 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 91 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 92 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 93 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 94 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 95 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 96 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 97 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 98 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 99 |  Deflection: -0.000000 m
+[10Dec2021 19:08:42.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 100 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 101 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 102 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 103 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 104 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 105 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 106 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 107 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 108 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 109 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 110 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 111 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 112 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 113 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 114 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 115 |  Deflection: -0.000000 m
+[10Dec2021 19:08:43.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 116 |  Deflection: -0.000000 m
+[10Dec2021 19:08:44.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 117 |  Deflection: -0.000000 m
+[10Dec2021 19:08:44.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 118 |  Deflection: -0.000000 m
+[10Dec2021 19:08:44.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 119 |  Deflection: -0.000000 m
+[10Dec2021 19:08:44.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 120 |  Deflection: -0.000000 m
+[10Dec2021 19:08:44.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 121 |  Deflection: -0.000000 m
+[10Dec2021 19:08:44.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 122 |  Deflection: -0.000000 m
+[10Dec2021 19:08:44.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 123 |  Deflection: -0.000000 m
+[10Dec2021 19:08:44.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 124 |  Deflection: -0.000000 m
+[10Dec2021 19:08:44.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 125 |  Deflection: -0.000000 m
+[10Dec2021 19:08:44.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 126 |  Deflection: -0.000001 m
+[10Dec2021 19:08:44.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 127 |  Deflection: -0.000001 m
+[10Dec2021 19:08:44.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 128 |  Deflection: -0.000001 m
+[10Dec2021 19:08:44.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 129 |  Deflection: -0.000001 m
+[10Dec2021 19:08:44.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 130 |  Deflection: -0.000001 m
+[10Dec2021 19:08:44.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 131 |  Deflection: -0.000001 m
+[10Dec2021 19:08:44.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 132 |  Deflection: -0.000001 m
+[10Dec2021 19:08:44.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 133 |  Deflection: -0.000001 m
+[10Dec2021 19:08:44.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 134 |  Deflection: -0.000001 m
+[10Dec2021 19:08:44.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 135 |  Deflection: -0.000001 m
+[10Dec2021 19:08:44.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 136 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 137 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 138 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 139 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 140 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 141 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 142 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 143 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 144 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 145 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 146 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 147 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 148 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 149 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 150 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 151 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 152 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 153 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 154 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 155 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 156 |  Deflection: -0.000001 m
+[10Dec2021 19:08:45.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 157 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 158 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 159 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 160 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 161 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 162 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 163 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 164 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 165 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 166 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 167 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 168 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 169 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 170 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 171 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 172 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 173 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 174 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 175 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 176 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 177 |  Deflection: -0.000001 m
+[10Dec2021 19:08:46.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 178 |  Deflection: -0.000001 m
+[10Dec2021 19:08:47.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 179 |  Deflection: -0.000001 m
+[10Dec2021 19:08:47.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 180 |  Deflection: -0.000001 m
+[10Dec2021 19:08:47.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 181 |  Deflection: -0.000001 m
+[10Dec2021 19:08:47.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 182 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 183 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 184 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 185 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 186 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 187 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 188 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 189 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 190 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 191 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 192 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 193 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 194 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 195 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 196 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 197 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 198 |  Deflection: -0.000002 m
+[10Dec2021 19:08:47.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 199 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 200 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 201 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 202 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 203 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 204 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 205 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 206 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 207 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 208 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 209 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 210 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 211 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 212 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 213 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 214 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 215 |  Deflection: -0.000002 m
+[10Dec2021 19:08:48.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 216 |  Deflection: -0.000003 m
+[10Dec2021 19:08:48.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 217 |  Deflection: -0.000003 m
+[10Dec2021 19:08:48.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 218 |  Deflection: -0.000003 m
+[10Dec2021 19:08:48.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 219 |  Deflection: -0.000003 m
+[10Dec2021 19:08:48.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 220 |  Deflection: -0.000003 m
+[10Dec2021 19:08:48.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 221 |  Deflection: -0.000003 m
+[10Dec2021 19:08:48.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 222 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 223 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 224 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 225 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 226 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 227 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 228 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 229 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 230 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 231 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 232 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 233 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 234 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 235 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 236 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 237 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 238 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 239 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 240 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 241 |  Deflection: -0.000003 m
+[10Dec2021 19:08:49.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 242 |  Deflection: -0.000004 m
+[10Dec2021 19:08:49.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 243 |  Deflection: -0.000004 m
+[10Dec2021 19:08:49.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 244 |  Deflection: -0.000004 m
+[10Dec2021 19:08:49.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 245 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 246 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 247 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 248 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 249 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 250 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 251 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 252 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 253 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 254 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 255 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 256 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 257 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 258 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 259 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 260 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 261 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 262 |  Deflection: -0.000004 m
+[10Dec2021 19:08:50.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 263 |  Deflection: -0.000005 m
+[10Dec2021 19:08:50.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 264 |  Deflection: -0.000005 m
+[10Dec2021 19:08:50.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 265 |  Deflection: -0.000005 m
+[10Dec2021 19:08:50.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 266 |  Deflection: -0.000005 m
+[10Dec2021 19:08:50.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 267 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 268 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 269 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 270 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 271 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 272 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 273 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 274 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 275 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 276 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 277 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 278 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 279 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 280 |  Deflection: -0.000005 m
+[10Dec2021 19:08:51.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 281 |  Deflection: -0.000006 m
+[10Dec2021 19:08:51.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 282 |  Deflection: -0.000006 m
+[10Dec2021 19:08:51.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 283 |  Deflection: -0.000006 m
+[10Dec2021 19:08:51.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 284 |  Deflection: -0.000006 m
+[10Dec2021 19:08:51.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 285 |  Deflection: -0.000006 m
+[10Dec2021 19:08:51.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 286 |  Deflection: -0.000006 m
+[10Dec2021 19:08:51.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 287 |  Deflection: -0.000006 m
+[10Dec2021 19:08:51.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 288 |  Deflection: -0.000006 m
+[10Dec2021 19:08:51.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 289 |  Deflection: -0.000006 m
+[10Dec2021 19:08:52.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 290 |  Deflection: -0.000006 m
+[10Dec2021 19:08:52.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 291 |  Deflection: -0.000006 m
+[10Dec2021 19:08:52.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 292 |  Deflection: -0.000006 m
+[10Dec2021 19:08:52.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 293 |  Deflection: -0.000006 m
+[10Dec2021 19:08:52.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 294 |  Deflection: -0.000006 m
+[10Dec2021 19:08:52.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 295 |  Deflection: -0.000006 m
+[10Dec2021 19:08:52.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 296 |  Deflection: -0.000006 m
+[10Dec2021 19:08:52.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 297 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 298 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 299 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 300 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 301 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 302 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 303 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 304 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 305 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 306 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 307 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 308 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 309 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 310 |  Deflection: -0.000007 m
+[10Dec2021 19:08:52.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 311 |  Deflection: -0.000008 m
+[10Dec2021 19:08:52.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 312 |  Deflection: -0.000008 m
+[10Dec2021 19:08:53.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 313 |  Deflection: -0.000008 m
+[10Dec2021 19:08:53.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 314 |  Deflection: -0.000008 m
+[10Dec2021 19:08:53.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 315 |  Deflection: -0.000008 m
+[10Dec2021 19:08:53.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 316 |  Deflection: -0.000008 m
+[10Dec2021 19:08:53.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 317 |  Deflection: -0.000008 m
+[10Dec2021 19:08:53.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 318 |  Deflection: -0.000008 m
+[10Dec2021 19:08:53.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 319 |  Deflection: -0.000008 m
+[10Dec2021 19:08:53.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 320 |  Deflection: -0.000008 m
+[10Dec2021 19:08:53.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 321 |  Deflection: -0.000008 m
+[10Dec2021 19:08:53.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 322 |  Deflection: -0.000008 m
+[10Dec2021 19:08:53.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 323 |  Deflection: -0.000008 m
+[10Dec2021 19:08:53.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 324 |  Deflection: -0.000009 m
+[10Dec2021 19:08:53.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 325 |  Deflection: -0.000009 m
+[10Dec2021 19:08:53.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 326 |  Deflection: -0.000009 m
+[10Dec2021 19:08:53.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 327 |  Deflection: -0.000009 m
+[10Dec2021 19:08:53.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 328 |  Deflection: -0.000009 m
+[10Dec2021 19:08:53.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 329 |  Deflection: -0.000009 m
+[10Dec2021 19:08:53.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 330 |  Deflection: -0.000009 m
+[10Dec2021 19:08:53.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 331 |  Deflection: -0.000009 m
+[10Dec2021 19:08:53.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 332 |  Deflection: -0.000009 m
+[10Dec2021 19:08:53.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 333 |  Deflection: -0.000009 m
+[10Dec2021 19:08:53.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 334 |  Deflection: -0.000009 m
+[10Dec2021 19:08:53.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 335 |  Deflection: -0.000009 m
+[10Dec2021 19:08:53.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 336 |  Deflection: -0.000009 m
+[10Dec2021 19:08:53.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 337 |  Deflection: -0.000010 m
+[10Dec2021 19:08:54.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 338 |  Deflection: -0.000010 m
+[10Dec2021 19:08:54.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 339 |  Deflection: -0.000010 m
+[10Dec2021 19:08:54.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 340 |  Deflection: -0.000010 m
+[10Dec2021 19:08:54.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 341 |  Deflection: -0.000010 m
+[10Dec2021 19:08:54.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 342 |  Deflection: -0.000010 m
+[10Dec2021 19:08:54.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 343 |  Deflection: -0.000010 m
+[10Dec2021 19:08:54.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 344 |  Deflection: -0.000010 m
+[10Dec2021 19:08:54.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 345 |  Deflection: -0.000010 m
+[10Dec2021 19:08:54.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 346 |  Deflection: -0.000010 m
+[10Dec2021 19:08:54.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 347 |  Deflection: -0.000010 m
+[10Dec2021 19:08:54.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 348 |  Deflection: -0.000011 m
+[10Dec2021 19:08:54.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 349 |  Deflection: -0.000011 m
+[10Dec2021 19:08:54.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 350 |  Deflection: -0.000011 m
+[10Dec2021 19:08:54.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 351 |  Deflection: -0.000011 m
+[10Dec2021 19:08:54.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 352 |  Deflection: -0.000011 m
+[10Dec2021 19:08:54.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 353 |  Deflection: -0.000011 m
+[10Dec2021 19:08:54.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 354 |  Deflection: -0.000011 m
+[10Dec2021 19:08:54.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 355 |  Deflection: -0.000011 m
+[10Dec2021 19:08:54.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 356 |  Deflection: -0.000011 m
+[10Dec2021 19:08:54.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 357 |  Deflection: -0.000011 m
+[10Dec2021 19:08:54.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 358 |  Deflection: -0.000011 m
+[10Dec2021 19:08:54.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 359 |  Deflection: -0.000012 m
+[10Dec2021 19:08:54.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 360 |  Deflection: -0.000012 m
+[10Dec2021 19:08:55.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 361 |  Deflection: -0.000012 m
+[10Dec2021 19:08:55.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 362 |  Deflection: -0.000012 m
+[10Dec2021 19:08:55.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 363 |  Deflection: -0.000012 m
+[10Dec2021 19:08:55.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 364 |  Deflection: -0.000012 m
+[10Dec2021 19:08:55.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 365 |  Deflection: -0.000012 m
+[10Dec2021 19:08:55.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 366 |  Deflection: -0.000012 m
+[10Dec2021 19:08:55.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 367 |  Deflection: -0.000012 m
+[10Dec2021 19:08:55.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 368 |  Deflection: -0.000012 m
+[10Dec2021 19:08:55.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 369 |  Deflection: -0.000013 m
+[10Dec2021 19:08:55.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 370 |  Deflection: -0.000013 m
+[10Dec2021 19:08:55.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 371 |  Deflection: -0.000013 m
+[10Dec2021 19:08:55.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 372 |  Deflection: -0.000013 m
+[10Dec2021 19:08:55.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 373 |  Deflection: -0.000013 m
+[10Dec2021 19:08:55.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 374 |  Deflection: -0.000013 m
+[10Dec2021 19:08:55.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 375 |  Deflection: -0.000013 m
+[10Dec2021 19:08:55.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 376 |  Deflection: -0.000013 m
+[10Dec2021 19:08:55.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 377 |  Deflection: -0.000013 m
+[10Dec2021 19:08:55.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 378 |  Deflection: -0.000014 m
+[10Dec2021 19:08:55.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 379 |  Deflection: -0.000014 m
+[10Dec2021 19:08:55.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 380 |  Deflection: -0.000014 m
+[10Dec2021 19:08:55.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 381 |  Deflection: -0.000014 m
+[10Dec2021 19:08:55.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 382 |  Deflection: -0.000014 m
+[10Dec2021 19:08:55.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 383 |  Deflection: -0.000014 m
+[10Dec2021 19:08:56.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 384 |  Deflection: -0.000014 m
+[10Dec2021 19:08:56.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 385 |  Deflection: -0.000014 m
+[10Dec2021 19:08:56.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 386 |  Deflection: -0.000014 m
+[10Dec2021 19:08:56.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 387 |  Deflection: -0.000014 m
+[10Dec2021 19:08:56.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 388 |  Deflection: -0.000015 m
+[10Dec2021 19:08:56.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 389 |  Deflection: -0.000015 m
+[10Dec2021 19:08:56.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 390 |  Deflection: -0.000015 m
+[10Dec2021 19:08:56.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 391 |  Deflection: -0.000015 m
+[10Dec2021 19:08:56.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 392 |  Deflection: -0.000015 m
+[10Dec2021 19:08:56.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 393 |  Deflection: -0.000015 m
+[10Dec2021 19:08:56.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 394 |  Deflection: -0.000015 m
+[10Dec2021 19:08:56.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 395 |  Deflection: -0.000015 m
+[10Dec2021 19:08:56.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 396 |  Deflection: -0.000016 m
+[10Dec2021 19:08:56.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 397 |  Deflection: -0.000016 m
+[10Dec2021 19:08:56.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 398 |  Deflection: -0.000016 m
+[10Dec2021 19:08:56.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 399 |  Deflection: -0.000016 m
+[10Dec2021 19:08:56.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 400 |  Deflection: -0.000016 m
+[10Dec2021 19:08:56.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 401 |  Deflection: -0.000016 m
+[10Dec2021 19:08:56.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 402 |  Deflection: -0.000016 m
+[10Dec2021 19:08:56.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 403 |  Deflection: -0.000016 m
+[10Dec2021 19:08:56.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 404 |  Deflection: -0.000016 m
+[10Dec2021 19:08:56.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 405 |  Deflection: -0.000017 m
+[10Dec2021 19:08:56.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 406 |  Deflection: -0.000017 m
+[10Dec2021 19:08:57.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 407 |  Deflection: -0.000017 m
+[10Dec2021 19:08:57.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 408 |  Deflection: -0.000017 m
+[10Dec2021 19:08:57.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 409 |  Deflection: -0.000017 m
+[10Dec2021 19:08:57.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 410 |  Deflection: -0.000017 m
+[10Dec2021 19:08:57.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 411 |  Deflection: -0.000017 m
+[10Dec2021 19:08:57.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 412 |  Deflection: -0.000017 m
+[10Dec2021 19:08:57.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 413 |  Deflection: -0.000018 m
+[10Dec2021 19:08:57.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 414 |  Deflection: -0.000018 m
+[10Dec2021 19:08:57.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 415 |  Deflection: -0.000018 m
+[10Dec2021 19:08:57.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 416 |  Deflection: -0.000018 m
+[10Dec2021 19:08:57.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 417 |  Deflection: -0.000018 m
+[10Dec2021 19:08:57.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 418 |  Deflection: -0.000018 m
+[10Dec2021 19:08:57.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 419 |  Deflection: -0.000018 m
+[10Dec2021 19:08:57.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 420 |  Deflection: -0.000019 m
+[10Dec2021 19:08:57.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 421 |  Deflection: -0.000019 m
+[10Dec2021 19:08:57.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 422 |  Deflection: -0.000019 m
+[10Dec2021 19:08:57.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 423 |  Deflection: -0.000019 m
+[10Dec2021 19:08:57.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 424 |  Deflection: -0.000019 m
+[10Dec2021 19:08:57.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Time Steps: 425 |  Deflection: -0.000019 m

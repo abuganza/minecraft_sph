@@ -1,0 +1,2 @@
+h_threshold, alpha, Ehg, mat[0], mat[1], mat[2], eta, rho, n_t_steps, dt_global, loading_time_percent,
+2.0,1.0,1.0E8,1.0,1.0E9,0.4,1.0E7,15000.0,2000.0,1.0E-4,20.0,

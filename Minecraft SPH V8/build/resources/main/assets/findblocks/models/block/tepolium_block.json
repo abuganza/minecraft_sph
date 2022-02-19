@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "findblocks:blocks/black",
+    "particle": "findblocks:blocks/black"
+  }
+}

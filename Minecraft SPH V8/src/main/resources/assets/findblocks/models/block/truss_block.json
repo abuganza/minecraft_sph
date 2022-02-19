@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "findblocks:blocks/truss",
+    "particle": "findblocks:blocks/truss"
+  }
+}
